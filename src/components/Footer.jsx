@@ -44,7 +44,7 @@ export default function Footer() {
         <div className="footer-links">
           <h4>Congreso</h4>
           <ul>
-            <li><a href="#congreso" onClick={(e) => handleNav(e, '#congreso')}>VIII Congreso 2025</a></li>
+            <li><a href="#congreso" onClick={(e) => handleNav(e, '#congreso')}>VIII Congreso 2026</a></li>
             <li><a href="#">Circular N°1</a></li>
             <li><a href="#">Circular N°2</a></li>
             <li><a href="#">Envío de Trabajos</a></li>
@@ -63,7 +63,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <span>© 2025 Red Argentina de Cunicultura. Todos los derechos reservados.</span>
+        <span>© 2026 Red Argentina de Cunicultura. Todos los derechos reservados.</span>
         <span>Conformada en mayo de 2023</span>
       </div>
 

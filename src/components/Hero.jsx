@@ -85,7 +85,7 @@ export default function Hero() {
               document.querySelector('#congreso')?.scrollIntoView({ behavior: 'smooth' })
             }}
           >
-            VIII Congreso 2025
+            VIII Congreso Americano de Cunicultura - 2026
           </a>
         </div>
       </div>
@@ -114,7 +114,7 @@ export default function Hero() {
         .hero-bg {
           position: absolute;
           inset: 0;
-          background: linear-gradient(135deg, #0d3b1f 0%, #1a5c2e 40%, #2d7a47 70%, #1e5799 100%);
+          background: linear-gradient(135deg, #0c2d5a 0%, #1e5799 45%, #1589b3 75%, #38b2d4 100%);
         }
         .hero-overlay {
           position: absolute;

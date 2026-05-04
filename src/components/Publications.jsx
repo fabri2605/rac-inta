@@ -2,8 +2,8 @@ const publications = [
   {
     category: 'Manuales INTA',
     icon: '📚',
-    color: '#2d7a47',
-    bg: '#e8f5ec',
+    color: '#1589b3',
+    bg: '#e0f5fc',
     items: [
       { title: 'Manual de Cunicultura INTA', desc: 'Guía completa sobre manejo productivo, sanidad y nutrición en cunicultura.' },
       { title: 'Producción de Conejos', desc: 'Aspectos técnicos y económicos para la cría intensiva y extensiva de conejos.' },

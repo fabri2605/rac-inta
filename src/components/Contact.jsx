@@ -94,7 +94,7 @@ export default function Contact() {
 
       <style>{`
         .contact {
-          background: linear-gradient(135deg, #0d3b1f, #1a5c2e);
+          background: linear-gradient(135deg, #0c2d5a, #1589b3);
           padding: 96px 24px;
         }
         .contact-grid {
@@ -180,7 +180,7 @@ export default function Contact() {
           transition: all 0.2s;
           width: 100%;
         }
-        .form-submit:hover { background: var(--green-dark); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(45,122,71,0.3); }
+        .form-submit:hover { background: var(--green-dark); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(21,137,179,0.3); }
         @media (max-width: 900px) {
           .contact-grid { grid-template-columns: 1fr; gap: 40px; }
         }

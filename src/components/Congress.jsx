@@ -34,7 +34,7 @@ export default function Congress() {
     <section id="congreso" className="congress">
       <div className="congress-header">
         <div className="container">
-          <div className="congress-badge">2025 · Esquel, Chubut</div>
+          <div className="congress-badge">2026 · Esquel, Chubut</div>
           <h2 className="congress-title">
             VIII Congreso Americano<br />de Cunicultura
           </h2>
@@ -72,7 +72,7 @@ export default function Congress() {
               rel="noopener noreferrer"
               className="event-link"
             >
-              Ver CAPA 2025 →
+              Ver CAPA 2026 →
             </a>
           </div>
         </div>
@@ -187,7 +187,7 @@ export default function Congress() {
                   },
                   {
                     q: '¿Cómo me inscribo?',
-                    a: 'La inscripción se realiza a través del formulario en línea disponible en la sección de registro. Próximamente habilitaremos el link de inscripción.'
+                    a: 'Enviá un correo a redargentinadecunicultura@gmail.com indicando que la inscripción es para el VIII Congreso Americano de Cunicultura 2026.'
                   },
                   {
                     q: '¿Hay opciones de alojamiento?',
@@ -195,7 +195,7 @@ export default function Congress() {
                   },
                   {
                     q: '¿Puedo presentar más de un trabajo?',
-                    a: 'Sí, cada autor puede presentar hasta dos trabajos. Consultar las normas específicas en la guía para autores.'
+                    a: 'Sí, cada autor puede presentar hasta 6 trabajos. Consultar las normas específicas en la guía para autores.'
                   },
                   {
                     q: '¿Se entregan certificados?',
@@ -246,7 +246,7 @@ export default function Congress() {
           background: var(--gray-100);
         }
         .congress-header {
-          background: linear-gradient(135deg, #0d3b1f, #1a5c2e);
+          background: linear-gradient(135deg, #0c2d5a, #1589b3);
           padding: 72px 24px 48px;
           text-align: center;
         }

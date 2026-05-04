@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import racLogo from '../assets/RAC_LOGO.png'
 
 const navLinks = [
   { label: 'Inicio', href: '#inicio' },
@@ -29,13 +30,7 @@ export default function Navbar() {
     <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
       <div className="navbar-inner">
         <a href="#inicio" className="navbar-logo" onClick={(e) => handleLink(e, '#inicio')}>
-          <div className="logo-icon">
-            <span className="logo-rabbit">🐇</span>
-          </div>
-          <div className="logo-text">
-            <span className="logo-rac">RAC</span>
-            <span className="logo-full">Red Argentina de Cunicultura</span>
-          </div>
+          <img src={racLogo} alt="RAC Logo" className="logo-img" />
         </a>
 
         <ul className={`navbar-links${menuOpen ? ' open' : ''}`}>
@@ -68,7 +63,7 @@ export default function Navbar() {
           transition: background 0.3s, box-shadow 0.3s;
         }
         .navbar.scrolled {
-          background: rgba(26, 92, 46, 0.97);
+          background: rgba(12, 45, 90, 0.97);
           box-shadow: 0 2px 20px rgba(0,0,0,0.2);
           backdrop-filter: blur(10px);
         }
@@ -87,34 +82,14 @@ export default function Navbar() {
           gap: 12px;
           text-decoration: none;
         }
-        .logo-icon {
-          width: 44px;
-          height: 44px;
-          background: white;
+        .logo-img {
+          height: 52px;
+          width: 52px;
+          object-fit: contain;
           border-radius: 50%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 22px;
-          box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-          flex-shrink: 0;
-        }
-        .logo-text {
-          display: flex;
-          flex-direction: column;
-        }
-        .logo-rac {
-          font-size: 20px;
-          font-weight: 800;
-          color: white;
-          line-height: 1;
-          letter-spacing: 1px;
-        }
-        .logo-full {
-          font-size: 11px;
-          color: rgba(255,255,255,0.85);
-          font-weight: 400;
-          line-height: 1.2;
+          background: white;
+          padding: 4px;
+          display: block;
         }
         .navbar-links {
           display: flex;
@@ -163,7 +138,7 @@ export default function Navbar() {
             position: absolute;
             top: 70px;
             left: 0; right: 0;
-            background: rgba(26, 92, 46, 0.98);
+            background: rgba(12, 45, 90, 0.98);
             flex-direction: column;
             gap: 0;
             padding: 12px 0;
@@ -171,7 +146,7 @@ export default function Navbar() {
           }
           .navbar-links.open { display: flex; }
           .navbar-links a { padding: 14px 24px; border-radius: 0; }
-          .logo-full { display: none; }
+          .logo-img { height: 42px; width: 42px; }
         }
       `}</style>
     </nav>
